@@ -4,15 +4,15 @@ Người Việt Nam cùng thực hành dữ liệu.
 
 Nếu anh, chị thấy những nội dung được chia sẻ tại đây hữu ích và có thể ứng dụng được.
 
-Hãy đáp đền tiếp nối (Pay it forward) với những người đang gặp khó khăn.
+Hãy tiếp tục lan tỏa tinh thần  “Tiếp tục cho đi” (Pay It Forward). 
+> Khi ai đó giúp bạn (hoặc, chia sẻ với bạn những điều hay), cách bạn trả ơn tốt nhất là, hãy tiếp tục giúp đỡ những người khác (hoặc, hãy tiếp tục chia sẻ những điều hay đó cho những người khác), và những người đó cũng sẽ trả ơn bạn bằng cách tương tự.
 
 
-Gợi ý: Phòng Công tác xã hội bệnh viện Chợ Rẫy.
+Gợi ý: Phòng Công tác xã hội bệnh viện Chợ Rẫy. (những bệnh nhân nghèo)
 
 Chi tiết tại: https://bvchoray.vn/danh-muc/2001/NHUNG-TAM-LONG-VANG
 
-"""
-
+```
 Cô Bác/Anh Chị có tấm lòng hảo tâm vui lòng liên hệ:
 
 ·  Phòng Công tác xã hội Bệnh viện Chợ Rẫy
@@ -33,7 +33,7 @@ Thông tin chuyển khoản giúp đỡ người bệnh:
 
 ·  Mã Ngân hàng: 79203001 – Swift code: BFTVVNVX
 
-Ghi rõ: (tên nhà hảo tâm, địa chỉ) giúp đỡ bệnh nhân……..(họ tên), khoa……..
-
-"""
+· Nội dung: (tên nhà hảo tâm, địa chỉ) giúp đỡ bệnh nhân nghèo
+Lưu ý quan trọng: Chỉ chuyển khoản vào tài khoản mang tên **"Bệnh viện Chợ Rẫy"**
+```
 
