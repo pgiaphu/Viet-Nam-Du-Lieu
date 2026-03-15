@@ -1,0 +1,20 @@
+translate_task:
+  description: >
+    Answer this question: '{query}'
+    
+    First check if you can answer using available tools (DatabaseSchemaTool for schema, knowledge_tool for business info).
+    Only generate a SQL query if the answer requires actual data from the database that cannot be answered from metadata/knowledge.
+    
+    Be smart: Most metadata questions (table info, who owns a category, available columns) don't need a query!
+  expected_output: >
+    Either: (1) A direct answer to the user's question if answerable from metadata/knowledge, OR (2) A SQL query if database query is necessary
+  agent: sql_translator
+
+execute_task:
+  description: >
+    Execute the SQL query from the previous step ONLY if one was generated. 
+    Validate it first for safety, then execute and format the results in a business-friendly format.
+  expected_output: >
+    Formatted query results with summary statistics, or clear error message if validation fails
+  agent: sql_executor
+  context: [translate_task]

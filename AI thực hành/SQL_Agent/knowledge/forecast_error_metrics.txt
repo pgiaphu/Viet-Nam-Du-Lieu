@@ -1,0 +1,18 @@
+## Key Metrics for Forecast Error
+- **MAPE (Mean Absolute Percentage Error)**: 
+  `AVG(ABS(actual - forecast) / NULLIF(ABS(actual), 0)) * 100`
+ 
+- **RMSE (Root Mean Square Error)**:
+  `SQRT(AVG(POWER(actual - forecast, 2)))`
+
+- **MAE (Mean Absolute Error)**:
+  `AVG(ABS(actual - forecast))`
+
+- **WMAPE (Weighted MAPE)**:
+  `SUM(ABS(actual - forecast)) / SUM(ABS(actual)) * 100`
+
+## Person in charge of each category
+- PHÚ: TRANG SỨC ECZ, TRANG SỨC KHÔNG GẮN ĐÁ, TRANG SỨC VỎ, KIM CƯƠNG RỜI
+- NHẬT: TRANG SỨC DÂY CHUYỀN, TRANG SỨC CZ
+- MỸ: TRANG SỨC Ý
+- NHƯ: TRANG SỨC KIM CƯƠNG, TRANG SỨC NGỌC TRAI, TRANG SỨC ĐÁ MÀU

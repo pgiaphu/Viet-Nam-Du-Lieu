@@ -1,0 +1,17 @@
+[project]
+name = "sql_agent_system"
+date = "Jan 2026"
+description = "A simple SQL Agent system using CrewAI framework"
+authors = [{ name = "Gia Phú", email = "phu.pg@pnj.com.vn" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.86.0",
+    "pandas",
+    "sqlalchemy",
+    "pyodbc",
+    "python-dotenv"
+]
+
+[tool.crewai]
+type = "crew"
+name = "sql_agent_system"

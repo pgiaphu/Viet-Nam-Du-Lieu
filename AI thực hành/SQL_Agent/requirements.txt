@@ -1,0 +1,7 @@
+crewai
+crewai[tools]
+pandas
+sqlalchemy
+pyodbc
+python-dotenv
+requests
